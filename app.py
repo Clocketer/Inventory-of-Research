@@ -234,3 +234,4 @@ elif dataset_navigation == 'Edit Entry':
         w_sheet.write(num+1,8,ent_recomm)
         wb.save(excel_file)
         st.write('Table Updated')
+st.write('Good Day')
