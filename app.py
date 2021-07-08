@@ -15,14 +15,5 @@ workbook = xlrd.open_workbook(excel_file)
 wb = copy( rb )
 
 getdata_ExcNo = list(df['No. '])
-getdata_Theme = list(df['Theme'])
-getdata_AS = list(df['Area/Subject'])
-getdata_Title = list(df['Title'])
-getdata_Prop = list(df['Proponent/s'])
-getdata_SO = list(df['School/ Office'])
-getdata_Fin = list(df['Findings'])
-getdata_Conclu = list(df['Conclusions'])
-getdata_Recomm = list(df['Recommendations '])
 
-
-dataset_navigation = st.selectbox('Navigation:', ('Search', 'View Research', 'Download Original File', 'Add Entry', 'Edit Entry'))
+st.write(getdata_ExcNo)
