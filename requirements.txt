@@ -2,6 +2,5 @@ streamlit
 pandas
 xlrd
 xlutils
-URLError
 base64
 io
